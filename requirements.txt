@@ -1,4 +1,25 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Multi-Agent Framework
 crewai==0.28.8
 crewai-tools==0.1.6
+
+# LLM
 google-generativeai==0.3.2
+
+# Observability
+langfuse==2.20.0
+
+# Utilities
 python-dotenv==1.0.0
+requests==2.31.0
+httpx==0.26.0
+google-search-results==2.4.2
+
+# Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
